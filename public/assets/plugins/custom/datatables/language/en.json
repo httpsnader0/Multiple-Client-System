@@ -1,0 +1,243 @@
+{
+    "emptyTable": "No data available in table",
+    "info": "Showing _START_ to _END_ of _TOTAL_ entries",
+    "infoEmpty": "Showing 0 to 0 of 0 entries",
+    "infoFiltered": "(filtered from _MAX_ total entries)",
+    "infoThousands": ",",
+    "lengthMenu": "_MENU_",
+    "loadingRecords": "<div class='loading'> <div class='loading-icon'> <svg version='1.1' id='L4' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 100 100' enable-background='new 0 0 0 0' xml:space='preserve'> <circle stroke='none' cx='25' cy='50' r='8'><animate attributeName='opacity' dur='1s' values='0;1;0' repeatCount='indefinite' begin='0.1'/></circle> <circle stroke='none' cx='50' cy='50' r='8'><animate attributeName='opacity' dur='1s' values='0;1;0' repeatCount='indefinite' begin='0.2'/></circle> <circle stroke='none' cx='75' cy='50' r='8'><animate attributeName='opacity' dur='1s' values='0;1;0' repeatCount='indefinite' begin='0.3'/></circle> </svg> </div> Loading ...</div>",
+    "processing": "<div class='loading'> <div class='loading-icon'> <svg version='1.1' id='L4' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 100 100' enable-background='new 0 0 0 0' xml:space='preserve'> <circle stroke='none' cx='25' cy='50' r='8'><animate attributeName='opacity' dur='1s' values='0;1;0' repeatCount='indefinite' begin='0.1'/></circle> <circle stroke='none' cx='50' cy='50' r='8'><animate attributeName='opacity' dur='1s' values='0;1;0' repeatCount='indefinite' begin='0.2'/></circle> <circle stroke='none' cx='75' cy='50' r='8'><animate attributeName='opacity' dur='1s' values='0;1;0' repeatCount='indefinite' begin='0.3'/></circle> </svg> </div> Processing ...</div>",
+    "search": "Search : ",
+    "zeroRecords": "No matching records found",
+    "thousands": ",",
+    "paginate": {
+        "first": "First",
+        "last": "Last",
+        "next": "<span class='svg-icon svg-icon-muted svg-icon-2x'><svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'><rect opacity='0.3' x='2' y='2' width='20' height='20' rx='5' fill='currentColor'/><path d='M11.9343 12.5657L9.53696 14.963C9.22669 15.2733 9.18488 15.7619 9.43792 16.1204C9.7616 16.5789 10.4211 16.6334 10.8156 16.2342L14.3054 12.7029C14.6903 12.3134 14.6903 11.6866 14.3054 11.2971L10.8156 7.76582C10.4211 7.3666 9.7616 7.42107 9.43792 7.87962C9.18488 8.23809 9.22669 8.72669 9.53696 9.03696L11.9343 11.4343C12.2467 11.7467 12.2467 12.2533 11.9343 12.5657Z' fill='currentColor'/></svg></span>",
+        "previous": "<span class='svg-icon svg-icon-muted svg-icon-2x'><svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'><rect opacity='0.3' x='2' y='2' width='20' height='20' rx='5' fill='currentColor'/><path d='M12.0657 12.5657L14.463 14.963C14.7733 15.2733 14.8151 15.7619 14.5621 16.1204C14.2384 16.5789 13.5789 16.6334 13.1844 16.2342L9.69464 12.7029C9.30968 12.3134 9.30968 11.6866 9.69464 11.2971L13.1844 7.76582C13.5789 7.3666 14.2384 7.42107 14.5621 7.87962C14.8151 8.23809 14.7733 8.72669 14.463 9.03696L12.0657 11.4343C11.7533 11.7467 11.7533 12.2533 12.0657 12.5657Z' fill='currentColor'/></svg></span>"
+    },
+    "aria": {
+        "sortAscending": ": activate to sort column ascending",
+        "sortDescending": ": activate to sort column descending"
+    },
+    "autoFill": {
+        "cancel": "Cancel",
+        "fill": "Fill all cells with <i>%d<\/i>",
+        "fillHorizontal": "Fill cells horizontally",
+        "fillVertical": "Fill cells vertically"
+    },
+    "buttons": {
+        "collection": "Collection <span class='ui-button-icon-primary ui-icon ui-icon-triangle-1-s'\/>",
+        "colvis": "Column Visibility",
+        "colvisRestore": "Restore visibility",
+        "copy": "Copy",
+        "copyKeys": "Press ctrl or u2318 + C to copy the table data to your system clipboard.<br><br>To cancel, click this message or press escape.",
+        "copySuccess": {
+            "1": "Copied 1 row to clipboard",
+            "_": "Copied %d rows to clipboard"
+        },
+        "copyTitle": "Copy to Clipboard",
+        "csv": "Export CSV",
+        "excel": "Export Excel",
+        "pageLength": {
+            "-1": "Show all rows",
+            "_": "Show %d rows"
+        },
+        "pdf": "Export PDF",
+        "print": "Print",
+        "updateState": "Update",
+        "stateRestore": "State %d",
+        "savedStates": "Saved States",
+        "renameState": "Rename",
+        "removeState": "Remove",
+        "removeAllStates": "Remove All States",
+        "createState": "Create State",
+        "export": "Export",
+        "reset": "Reset",
+        "reload": "Reload",
+        "create": "Create"
+    },
+    "searchBuilder": {
+        "add": "Add Condition",
+        "button": {
+            "0": "Search Builder",
+            "_": "Search Builder (%d)"
+        },
+        "clearAll": "Clear All",
+        "condition": "Condition",
+        "conditions": {
+            "date": {
+                "after": "After",
+                "before": "Before",
+                "between": "Between",
+                "empty": "Empty",
+                "equals": "Equals",
+                "not": "Not",
+                "notBetween": "Not Between",
+                "notEmpty": "Not Empty"
+            },
+            "number": {
+                "between": "Between",
+                "empty": "Empty",
+                "equals": "Equals",
+                "gt": "Greater Than",
+                "gte": "Greater Than Equal To",
+                "lt": "Less Than",
+                "lte": "Less Than Equal To",
+                "not": "Not",
+                "notBetween": "Not Between",
+                "notEmpty": "Not Empty"
+            },
+            "string": {
+                "contains": "Contains",
+                "empty": "Empty",
+                "endsWith": "Ends With",
+                "equals": "Equals",
+                "not": "Not",
+                "notEmpty": "Not Empty",
+                "startsWith": "Starts With",
+                "notContains": "Does Not Contain",
+                "notStarts": "Does Not Start With",
+                "notEnds": "Does Not End With"
+            },
+            "array": {
+                "without": "Without",
+                "notEmpty": "Not Empty",
+                "not": "Not",
+                "contains": "Contains",
+                "empty": "Empty",
+                "equals": "Equals"
+            }
+        },
+        "data": "Data",
+        "deleteTitle": "Delete filtering rule",
+        "leftTitle": "Outdent Criteria",
+        "logicAnd": "And",
+        "logicOr": "Or",
+        "rightTitle": "Indent Criteria",
+        "title": {
+            "0": "Search Builder",
+            "_": "Search Builder (%d)"
+        },
+        "value": "Value"
+    },
+    "searchPanes": {
+        "clearMessage": "Clear All",
+        "collapse": {
+            "0": "SearchPanes",
+            "_": "SearchPanes (%d)"
+        },
+        "count": "{total}",
+        "countFiltered": "{shown} ({total})",
+        "emptyPanes": "No SearchPanes",
+        "loadMessage": "Loading SearchPanes",
+        "title": "Filters Active - %d",
+        "showMessage": "Show All",
+        "collapseMessage": "Collapse All"
+    },
+    "select": {
+        "cells": {
+            "1": "1 cell selected",
+            "_": "%d cells selected"
+        },
+        "columns": {
+            "1": "1 column selected",
+            "_": "%d columns selected"
+        }
+    },
+    "datetime": {
+        "previous": "Previous",
+        "next": "Next",
+        "hours": "Hour",
+        "minutes": "Minute",
+        "seconds": "Second",
+        "unknown": "-",
+        "amPm": [
+            "am",
+            "pm"
+        ],
+        "weekdays": [
+            "Sun",
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+        ],
+        "months": [
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December"
+        ]
+    },
+    "editor": {
+        "close": "Close",
+        "create": {
+            "button": "New",
+            "title": "Create new entry",
+            "submit": "Create"
+        },
+        "edit": {
+            "button": "Edit",
+            "title": "Edit Entry",
+            "submit": "Update"
+        },
+        "remove": {
+            "button": "Delete",
+            "title": "Delete",
+            "submit": "Delete",
+            "confirm": {
+                "_": "Are you sure you wish to delete %d rows?",
+                "1": "Are you sure you wish to delete 1 row?"
+            }
+        },
+        "error": {
+            "system": "A system error has occurred (<a target=\"\\\" rel=\"nofollow\" href=\"\\\">More information<\/a>)."
+        },
+        "multi": {
+            "title": "Multiple Values",
+            "info": "The selected items contain different values for this input. To edit and set all items for this input to the same value, click or tap here, otherwise they will retain their individual values.",
+            "restore": "Undo Changes",
+            "noMulti": "This input can be edited individually, but not part of a group. "
+        }
+    },
+    "stateRestore": {
+        "renameTitle": "Rename State",
+        "renameLabel": "New Name for %s : ",
+        "renameButton": "Rename",
+        "removeTitle": "Remove State",
+        "removeSubmit": "Remove",
+        "removeJoiner": " and ",
+        "removeError": "Failed to remove state.",
+        "removeConfirm": "Are you sure you want to remove %s?",
+        "emptyStates": "No saved states",
+        "emptyError": "Name cannot be empty.",
+        "duplicateError": "A state with this name already exists.",
+        "creationModal": {
+            "toggleLabel": "Includes : ",
+            "title": "Create New State",
+            "select": "Select",
+            "searchBuilder": "SearchBuilder",
+            "search": "Search",
+            "scroller": "Scroll Position",
+            "paging": "Paging",
+            "order": "Sorting",
+            "name": "Name : ",
+            "columns": {
+                "visible": "Column Visibility",
+                "search": "Column Search"
+            },
+            "button": "Create"
+        }
+    }
+}

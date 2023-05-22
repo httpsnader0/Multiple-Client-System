@@ -1,0 +1,242 @@
+{
+    "emptyTable": "لا يوجد بيانات متاحة في الجدول",
+    "info": "إظهار _START_ إلى _END_ من أصل _TOTAL_ مدخل",
+    "infoEmpty": "يعرض 0 إلى 0 من أصل 0 مُدخل",
+    "infoFiltered": "(مرشحة من مجموع _MAX_ مُدخل)",
+    "infoThousands": ",",
+    "lengthMenu": "_MENU_",
+    "loadingRecords": "<div class='loading'> <div class='loading-icon'> <svg version='1.1' id='L4' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 100 100' enable-background='new 0 0 0 0' xml:space='preserve'> <circle stroke='none' cx='25' cy='50' r='8'><animate attributeName='opacity' dur='1s' values='0;1;0' repeatCount='indefinite' begin='0.1'/></circle> <circle stroke='none' cx='50' cy='50' r='8'><animate attributeName='opacity' dur='1s' values='0;1;0' repeatCount='indefinite' begin='0.2'/></circle> <circle stroke='none' cx='75' cy='50' r='8'><animate attributeName='opacity' dur='1s' values='0;1;0' repeatCount='indefinite' begin='0.3'/></circle> </svg> </div> جارٍ التحميل ...</div>",
+    "processing": "<div class='loading'> <div class='loading-icon'> <svg version='1.1' id='L4' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 100 100' enable-background='new 0 0 0 0' xml:space='preserve'> <circle stroke='none' cx='25' cy='50' r='8'><animate attributeName='opacity' dur='1s' values='0;1;0' repeatCount='indefinite' begin='0.1'/></circle> <circle stroke='none' cx='50' cy='50' r='8'><animate attributeName='opacity' dur='1s' values='0;1;0' repeatCount='indefinite' begin='0.2'/></circle> <circle stroke='none' cx='75' cy='50' r='8'><animate attributeName='opacity' dur='1s' values='0;1;0' repeatCount='indefinite' begin='0.3'/></circle> </svg> </div> جارٍ المعالجة ...</div>",
+    "search": "ابحث : ",
+    "zeroRecords": "لم يعثر على أية سجلات",
+    "thousands": ".",
+    "paginate": {
+        "first": "الأول",
+        "last": "الأخير",
+        "next": "<span class='svg-icon svg-icon-primary svg-icon-2x'><svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'><rect opacity='0.3' x='2' y='2' width='20' height='20' rx='5' fill='currentColor'/><path d='M12.0657 12.5657L14.463 14.963C14.7733 15.2733 14.8151 15.7619 14.5621 16.1204C14.2384 16.5789 13.5789 16.6334 13.1844 16.2342L9.69464 12.7029C9.30968 12.3134 9.30968 11.6866 9.69464 11.2971L13.1844 7.76582C13.5789 7.3666 14.2384 7.42107 14.5621 7.87962C14.8151 8.23809 14.7733 8.72669 14.463 9.03696L12.0657 11.4343C11.7533 11.7467 11.7533 12.2533 12.0657 12.5657Z' fill='currentColor'/></svg></span>",
+        "previous": "<span class='svg-icon svg-icon-primary svg-icon-2x'><svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'><rect opacity='0.3' x='2' y='2' width='20' height='20' rx='5' fill='currentColor'/><path d='M11.9343 12.5657L9.53696 14.963C9.22669 15.2733 9.18488 15.7619 9.43792 16.1204C9.7616 16.5789 10.4211 16.6334 10.8156 16.2342L14.3054 12.7029C14.6903 12.3134 14.6903 11.6866 14.3054 11.2971L10.8156 7.76582C10.4211 7.3666 9.7616 7.42107 9.43792 7.87962C9.18488 8.23809 9.22669 8.72669 9.53696 9.03696L11.9343 11.4343C12.2467 11.7467 12.2467 12.2533 11.9343 12.5657Z' fill='currentColor'/></svg></span>"    },
+    "aria": {
+        "sortAscending": ": تفعيل لترتيب العمود تصاعدياً",
+        "sortDescending": ": تفعيل لترتيب العمود تنازلياً"
+    },
+    "autoFill": {
+        "cancel": "إلغاء الامر",
+        "fill": "املأ كل الخلايا بـ <i>%d<\/i>",
+        "fillHorizontal": "تعبئة الخلايا أفقيًا",
+        "fillVertical": "تعبئة الخلايا عموديا"
+    },
+    "buttons": {
+        "collection": "مجموعة",
+        "colvis": "إظهار الأعمدة",
+        "colvisRestore": "إستعادة العرض",
+        "copy": "نسخ",
+        "copyKeys": "زر <i>ctrl<\/i> أو <i>⌘<\/i> + <i>C<\/i> من الجدول<br>ليتم نسخها إلى الحافظة<br><br>للإلغاء اضغط على الرسالة أو اضغط على زر الخروج.",
+        "copySuccess": {
+            "1": "تم نسخ سطر واحد الى الحافظة",
+            "_": "تم نسخ %d أسطر الى الحافظة"
+        },
+        "copyTitle": "نسخ إلى الحافظة",
+        "csv": "تصدير CSV",
+        "excel": "تصدير Excel",
+        "pageLength": {
+            "-1": "اظهار الكل",
+            "_": "إظهار %d أسطر"
+        },
+        "pdf": "تصدير PDF",
+        "print": "طباعة",
+        "updateState": "تحديث",
+        "stateRestore": "الحالة %d",
+        "savedStates": "الحالات المحفوظة",
+        "renameState": "تسميه",
+        "removeState": "إزالة",
+        "removeAllStates": "إزالة كافة الحالات",
+        "createState": "إنشاء حاله",
+        "export": "تصدير",
+        "reset": "تحديث",
+        "reload": "إعادة تحميل",
+        "create": "إنشاء"
+    },
+    "searchBuilder": {
+        "add": "اضافة شرط",
+        "button": {
+            "0": "فلاتر البحث",
+            "_": "فلاتر البحث (%d)"
+        },
+        "clearAll": "ازالة الكل",
+        "condition": "الشرط",
+        "conditions": {
+            "date": {
+                "after": "بعد",
+                "before": "قبل",
+                "between": "بين",
+                "empty": "فارغ",
+                "equals": "تساوي",
+                "not": "ليست ",
+                "notBetween": "ليست بين",
+                "notEmpty": "ليست فارغة"
+            },
+            "number": {
+                "between": "بين",
+                "empty": "فارغة",
+                "equals": "تساوي",
+                "gt": "أكبر من",
+                "gte": "أكبر أو تساوي",
+                "lt": "أقل من",
+                "lte": "أقل أو تساوي",
+                "not": "ليست",
+                "notBetween": "ليست بين",
+                "notEmpty": "ليست فارغة"
+            },
+            "string": {
+                "contains": "تحتوي",
+                "empty": "فارغة",
+                "endsWith": "تنتهي ب",
+                "equals": "تساوي",
+                "not": "ليست",
+                "notEmpty": "ليست فارغة",
+                "startsWith": " تبدأ بـ ",
+                "notContains": "لا تحتوي",
+                "notStarts": "لا تبدأ بـ",
+                "notEnds": "لا تنتهي بـ"
+            },
+            "array": {
+                "without": "بدون",
+                "notEmpty": "ليست فارغة",
+                "not": "ليست",
+                "contains": "تحتوي",
+                "empty": "فارغة",
+                "equals": "تساوي"
+            }
+        },
+        "data": "المعلومة",
+        "deleteTitle": "حذف فلاتر",
+        "leftTitle": "معايير تجاوزت الحدود",
+        "logicAnd": "و",
+        "logicOr": "أو",
+        "rightTitle": "معايير المسافة البادئة",
+        "title": {
+            "0": "منشئ البحث",
+            "_": "منشئ البحث (%d)"
+        },
+        "value": "القيمة"
+    },
+    "searchPanes": {
+        "clearMessage": "ازالة الكل",
+        "collapse": {
+            "0": "بحث",
+            "_": "بحث (%d)"
+        },
+        "count": "{total}",
+        "countFiltered": "{shown} ({total})",
+        "emptyPanes": "لا توجد خطوط بحث",
+        "loadMessage": "جارِ التحميل",
+        "title": "الفلاتر النشطة - %d",
+        "showMessage": "إظهار الجميع",
+        "collapseMessage": "إخفاء الجميع"
+    },
+    "select": {
+        "cells": {
+            "1": "1 خلية محددة",
+            "_": "%d خلايا محددة"
+        },
+        "columns": {
+            "1": "1 عمود محدد",
+            "_": "%d أعمدة محددة"
+        }
+    },
+    "datetime": {
+        "previous": "السابق",
+        "next": "التالي",
+        "hours": "الساعة",
+        "minutes": "الدقيقة",
+        "seconds": "الثانية",
+        "unknown": "-",
+        "amPm": [
+            "صباحا",
+            "مساءا"
+        ],
+        "weekdays": [
+            "الأحد",
+            "الإثنين",
+            "الثلاثاء",
+            "الأربعاء",
+            "الخميس",
+            "الجمعة",
+            "السبت"
+        ],
+        "months": [
+            "يناير",
+            "فبراير",
+            "مارس",
+            "أبريل",
+            "مايو",
+            "يونيو",
+            "يوليو",
+            "أغسطس",
+            "سبتمبر",
+            "أكتوبر",
+            "نوفمبر",
+            "ديسمبر"
+        ]
+    },
+    "editor": {
+        "close": "إغلاق",
+        "create": {
+            "button": "إضافة",
+            "title": "إضافة جديدة",
+            "submit": "إرسال"
+        },
+        "edit": {
+            "button": "تعديل",
+            "title": "تعديل السجل",
+            "submit": "تحديث"
+        },
+        "remove": {
+            "button": "حذف",
+            "title": "حذف",
+            "submit": "حذف",
+            "confirm": {
+                "_": "هل أنت متأكد من رغبتك في حذف السجلات %d المحددة؟",
+                "1": "هل أنت متأكد من رغبتك في حذف السجل؟"
+            }
+        },
+        "error": {
+            "system": "حدث خطأ ما"
+        },
+        "multi": {
+            "title": "قيم متعدية",
+            "info": "العناصر المحددة تحتوي على قيم مختلفة لهذا الإدخال. لتحرير كافة العناصر لهذا الإدخال وتعيينها على نفس القيمة ، انقر أو انقر هنا ، وإلا فسيحتفظون بقيمهم الفردية.",
+            "restore": "تراجع",
+            "noMulti": "يمكن تحرير هذا الإدخال بشكل فردي ، ولكن ليس جزءًا من مجموعة."
+        }
+    },
+    "stateRestore": {
+        "renameTitle": "إعادة تسمية الحالة",
+        "renameLabel": "اسم جديد لـ %s : ",
+        "renameButton": "إعادة تسميه",
+        "removeTitle": "إزالة الحاله",
+        "removeSubmit": "إزالة",
+        "removeJoiner": " و ",
+        "removeError": "فشل إزالة الحالة.",
+        "removeConfirm": "هل أنت متأكد من أنك تريد إزالة %s?",
+        "emptyStates": "لا توجد حالات محفوظة",
+        "emptyError": "لا يمكن أن يكون الاسم فارغًا.",
+        "duplicateError": "حالة بهذا الاسم موجودة بالفعل.",
+        "creationModal": {
+            "toggleLabel": "تتضمن  : ",
+            "title": "إنشاء حالة جديدة",
+            "select": "تحديد",
+            "searchBuilder": "منشئ البحث",
+            "search": "بحث",
+            "scroller": "موضع التمرير",
+            "paging": "الترحيل",
+            "order": "فرز",
+            "name": "اسم  : ",
+            "columns": {
+                "search": "إمكانية البحث للعمود",
+                "visible": "إظهار العمود"
+            },
+            "button": "إنشاء"
+        }
+    }
+}
