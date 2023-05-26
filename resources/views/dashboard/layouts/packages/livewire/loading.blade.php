@@ -3,7 +3,7 @@
     var target = document.querySelector("body");
     var blockUI = new KTBlockUI(target, {
         overlayClass: 'bg-dark bg-opacity-75 position-fixed',
-        message: '<div class="blockui-message"><span class="spinner-border text-success"></span> @lang('Loading ...')</div>',
+        message: '<div class="blockui-message"><span class="spinner-border text-danger"></span> @lang('Loading ...')</div>',
     });
     Livewire.hook('message.sent', (message, component) => {
         blockUI.block();

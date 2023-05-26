@@ -8,7 +8,7 @@
             </div>
             <div class="flex-grow-1 d-flex flex-column justify-content-center">
                 <div class="d-flex flex-column text-center text-md-start mb-10">
-                    <span class="text-success fs-2 mb-2">{{ auth()->user()->name }}</span>
+                    <span class="text-danger fs-2 mb-2">{{ auth()->user()->name }}</span>
                     <div class="text-gray-400 fs-6">
                         <span class="d-inline-block">{{ auth()->user()->phone }}</span>
                     </div>
@@ -27,12 +27,12 @@
         </div>
         <ul class="nav nav-stretch nav-line-tabs nav-line-tabs-2x border-transparent">
             <li class="nav-item w-100 w-md-auto">
-                <a id="profileProfilePage" href="{{ route('dashboard.profile.index') }}" class="nav-link text-active-success text-hover-success ms-0 me-0 me-md-10 w-100 w-md-auto py-5 px-10 justify-content-center border-hover-success">
+                <a id="profileProfilePage" href="{{ route('dashboard.profile.index') }}" class="nav-link text-active-danger text-hover-danger ms-0 me-0 me-md-10 w-100 w-md-auto py-5 px-10 justify-content-center border-hover-danger">
                     @lang('Profile Page')
                 </a>
             </li>
             <li class="nav-item w-100 w-md-auto">
-                <a id="profileChangePassword" href="{{ route('dashboard.profile.change-passwords.index') }}" class="nav-link text-active-success text-hover-success ms-0 me-0 me-md-10 w-100 w-md-auto py-5 px-10 justify-content-center border-hover-success">
+                <a id="profileChangePassword" href="{{ route('dashboard.profile.change-passwords.index') }}" class="nav-link text-active-danger text-hover-danger ms-0 me-0 me-md-10 w-100 w-md-auto py-5 px-10 justify-content-center border-hover-danger">
                     @lang('Change Password')
                 </a>
             </li>

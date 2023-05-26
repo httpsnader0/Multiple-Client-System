@@ -13,7 +13,7 @@
 @endsection
 
 @section('actions')
-    <a href="{{ route('dashboard.users.index') }}" class="btn btn-success">
+    <a href="{{ route('dashboard.users.index') }}" class="btn btn-danger">
         <i class="bi bi-arrow-{{ LaravelLocalization::getCurrentLocale()== 'ar' ? 'right' : 'left' }}"></i>
         @lang('Users')
     </a>
@@ -38,8 +38,8 @@
                             <td class="align-middle">{{ $user->name }}</td>
                         </tr>
                         <tr>
-                            <th class="align-middle text-nowrap py-7" width="30%">@lang('Phone')</th>
-                            <td class="align-middle">{{ $user->phone }}</td>
+                            <th class="align-middle text-nowrap py-7" width="30%">@lang('Email Address')</th>
+                            <td class="align-middle">{{ $user->email }}</td>
                         </tr>
                         <tr>
                             <th class="align-middle text-nowrap py-7" width="30%">@lang('Status')</th>

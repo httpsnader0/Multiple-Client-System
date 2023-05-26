@@ -13,7 +13,7 @@
 @endsection
 
 @section('actions')
-    <a href="{{ route('dashboard.customer-services.index') }}" class="btn btn-success">
+    <a href="{{ route('dashboard.customer-services.index') }}" class="btn btn-danger">
         <i class="bi bi-arrow-{{ LaravelLocalization::getCurrentLocale()== 'ar' ? 'right' : 'left' }}"></i>
         @lang('Customer Services')
     </a>
@@ -38,8 +38,8 @@
                             <td class="align-middle">{{ $customerService->name }}</td>
                         </tr>
                         <tr>
-                            <th class="align-middle text-nowrap py-7" width="30%">@lang('Phone')</th>
-                            <td class="align-middle">{{ $customerService->phone }}</td>
+                            <th class="align-middle text-nowrap py-7" width="30%">@lang('Email Address')</th>
+                            <td class="align-middle">{{ $customerService->email }}</td>
                         </tr>
                         <tr>
                             <th class="align-middle text-nowrap py-7" width="30%">@lang('Roles')</th>

@@ -3,11 +3,8 @@
 namespace App\Models\User;
 
 use App\Enums\UserTypeEnum;
-use App\Models\Core\Country;
-use App\Models\Core\FavouriteService;
-use App\Models\Core\FavouriteTechnical;
-use App\Models\Reservation\Reservation;
-use App\Models\Reservation\Service;
+use App\Models\Product\Product;
+use App\Models\Product\Purchase;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
@@ -63,5 +60,15 @@ class User extends Authenticatable implements HasMedia
     public function getRoleNameAttribute()
     {
         return $this->roles->first() ? json_decode($this->roles->first()->name, true)[LaravelLocalization::getCurrentLocale()] : '';
+    }
+
+    public function products()
+    {
+        return $this->hasMany(Product::class);
+    }
+
+    public function purchases()
+    {
+        return $this->hasMany(Purchase::class);
     }
 }

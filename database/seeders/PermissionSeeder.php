@@ -22,6 +22,10 @@ class PermissionSeeder extends Seeder
                 'en' => 'Administrator',
             ],
             [
+                'ar' => 'مستخدم',
+                'en' => 'User',
+            ],
+            [
                 'ar' => 'مشرف',
                 'en' => 'Customer Service',
             ],
@@ -53,5 +57,7 @@ class PermissionSeeder extends Seeder
                 }
             }
         }
+
+        Role::find(2)->givePermissionTo(Permission::whereIn('id', [1, 2, 3, 4, 5, 6])->get());
     }
 }

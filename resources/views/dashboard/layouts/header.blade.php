@@ -3,7 +3,7 @@
 
         <!-- Sidebar Mobile Toggle-->
         <div class="d-flex align-items-center d-lg-none ms-n2 me-2" title="Show sidebar menu">
-            <div class="btn btn-icon btn-active-color-success w-35px h-35px" id="kt_app_sidebar_mobile_toggle">
+            <div class="btn btn-icon btn-active-color-danger w-35px h-35px" id="kt_app_sidebar_mobile_toggle">
                 <span class="svg-icon svg-icon-1">
                     <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M21 7H3C2.4 7 2 6.6 2 6V4C2 3.4 2.4 3 3 3H21C21.6 3 22 3.4 22 4V6C22 6.6 21.6 7 21 7Z" fill="currentColor" />
@@ -46,11 +46,11 @@
 
                 <!-- Theme Mode -->
                 <div class="app-navbar-item">
-                    <a class="btn btn-icon btn-custom btn-icon-muted btn-active-light btn-active-color-success w-35px h-35px w-md-40px h-md-40px" data-kt-menu-trigger="click" data-kt-menu-attach="parent" data-kt-menu-placement="bottom">
+                    <a class="btn btn-icon btn-custom btn-icon-muted btn-active-light btn-active-color-danger w-35px h-35px w-md-40px h-md-40px" data-kt-menu-trigger="click" data-kt-menu-attach="parent" data-kt-menu-placement="bottom">
                         <i class="theme-light-show bi bi-sun fs-3"></i>
                         <i class="theme-dark-show bi bi-moon-stars fs-3"></i>
                     </a>
-                    <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-title-gray-700 menu-icon-muted menu-active-bg menu-state-color menu-hover-title-success fw-semibold py-4 fs-base w-175px" data-kt-menu="true" data-kt-element="theme-mode-menu">
+                    <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-title-gray-700 menu-icon-muted menu-active-bg menu-state-color menu-hover-title-danger fw-semibold py-4 fs-base w-175px" data-kt-menu="true" data-kt-element="theme-mode-menu">
                         <div class="menu-item px-3 my-0">
                             <a class="menu-link px-3 py-2" data-kt-element="mode" data-kt-value="light">
                                 <span class="menu-icon" data-kt-element="icon">
@@ -80,7 +80,7 @@
 
                 <!-- Language -->
                 <div class="app-navbar-item">
-                    <a class="btn btn-icon btn-custom btn-active-light btn-active-color-success w-35px h-35px w-md-40px h-md-40px" data-kt-menu-trigger="click" data-kt-menu-attach="parent" data-kt-menu-placement="bottom">
+                    <a class="btn btn-icon btn-custom btn-active-light btn-active-color-danger w-35px h-35px w-md-40px h-md-40px" data-kt-menu-trigger="click" data-kt-menu-attach="parent" data-kt-menu-placement="bottom">
                         <img class="w-20px h-20px rounded-1" src="{{ asset('assets/media/flags/' . LaravelLocalization::getCurrentLocale(). '.png') }}" alt="{{ LaravelLocalization::getCurrentLocaleNative() }}" />
                     </a>
                     <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-title-gray-700 menu-icon-muted menu-active-bg menu-state-color fw-semibold py-4 fs-base w-175px" data-kt-menu="true">
@@ -130,15 +130,6 @@
                                     <i class="bi bi-person-rolodex"></i>
                                 </span>
                                 @lang('Profile Page')
-                            </a>
-                        </div>
-
-                        <div class="menu-item px-5">
-                            <a id="menuNotifications" href="{{ route('dashboard.profile.notifications.index') }}" class="menu-link px-5">
-                                <span class="menu-icon me-3">
-                                    <i class="bi bi-bell"></i>
-                                </span>
-                                @lang('Notifications')
                             </a>
                         </div>
 

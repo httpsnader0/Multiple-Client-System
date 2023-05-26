@@ -45,7 +45,7 @@ class CustomerServiceTable extends Table
 
             Column::make(__('Name'), 'name')->searchable()->sortable(),
 
-            Column::make(__('Phone'), 'phone')->searchable()->sortable(),
+            Column::make(__('Email Address'), 'email')->searchable()->sortable(),
 
             Column::make(__('Roles'), 'id')->format(function ($value, $column, $row) {
                 return $column->roleId ? '<a href="' . route('dashboard.roles.show', $column->roleId) . '">' . $column->roleName . '</a>' : '';

@@ -35,7 +35,7 @@
         <img alt="{{ env('APP_NAME') }}" class="theme-light-show mh-100px m opacity-50" src="{{ asset(Setting::get('logoBlack')) }}" />
         <img alt="{{ env('APP_NAME') }}" class="theme-dark-show mh-100px opacity-50" src="{{ asset(Setting::get('logoWhite')) }}" />
         <div class="d-flex flex-column align-items-center mt-15">
-            <span class="spinner-border text-success" role="status"></span>
+            <span class="spinner-border text-danger" role="status"></span>
             <span class="text-muted fs-6 fw-semibold ms-5 mt-5">@lang('Loading ...')</span>
         </div>
     </div>
@@ -65,7 +65,7 @@
                         </a>
 
                         <!-- Sidebar Toggle -->
-                        <div id="kt_app_sidebar_toggle" class="app-sidebar-toggle btn btn-icon btn-shadow btn-sm btn-color-muted btn-active-color-success body-bg h-30px w-30px position-absolute top-50 start-100 translate-middle rotate" data-kt-toggle="true" data-kt-toggle-state="active" data-kt-toggle-target="body" data-kt-toggle-name="app-sidebar-minimize">
+                        <div id="kt_app_sidebar_toggle" class="app-sidebar-toggle btn btn-icon btn-shadow btn-sm btn-color-muted btn-active-color-danger body-bg h-30px w-30px position-absolute top-50 start-100 translate-middle rotate" data-kt-toggle="true" data-kt-toggle-state="active" data-kt-toggle-target="body" data-kt-toggle-name="app-sidebar-minimize">
                             <span class="svg-icon svg-icon-2 rotate-180">
                                 <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path opacity="0.5" d="M14.2657 11.4343L18.45 7.25C18.8642 6.83579 18.8642 6.16421 18.45 5.75C18.0358 5.33579 17.3642 5.33579 16.95 5.75L11.4071 11.2929C11.0166 11.6834 11.0166 12.3166 11.4071 12.7071L16.95 18.25C17.3642 18.6642 18.0358 18.6642 18.45 18.25C18.8642 17.8358 18.8642 17.1642 18.45 16.75L14.2657 12.5657C13.9533 12.2533 13.9533 11.7467 14.2657 11.4343Z" fill="currentColor" />
@@ -121,7 +121,7 @@
     </div>
 
     <!-- Scrolltop -->
-    <div id="kt_scrolltop" class="scrolltop bg-success" data-kt-scrolltop="true">
+    <div id="kt_scrolltop" class="scrolltop bg-danger" data-kt-scrolltop="true">
         <span class="svg-icon">
             <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect opacity="0.5" x="13" y="6" width="13" height="2" rx="1" transform="rotate(90 13 6)" fill="currentColor" />
@@ -137,8 +137,6 @@
     <script src="{{ asset('assets/packages/lottie/lottie-player.js') }}"></script>
     <script src="{{ asset('assets/js/dashboard.js') }}"></script>
     @include('dashboard.layouts.scripts.notify')
-    <script src="{{ asset('assets/packages/pusher/pusher.min.js') }}"></script>
-    @include('dashboard.layouts.scripts.notifications')
     @stack('js')
 
 </body>

@@ -67,7 +67,7 @@
         <img alt="{{ env('APP_NAME') }}" class="theme-light-show mh-100px m opacity-50" src="{{ asset(Setting::get('logoBlack')) }}" />
         <img alt="{{ env('APP_NAME') }}" class="theme-dark-show mh-100px opacity-50" src="{{ asset(Setting::get('logoWhite')) }}" />
         <div class="d-flex flex-column align-items-center mt-15">
-            <span class="spinner-border text-success" role="status"></span>
+            <span class="spinner-border text-danger" role="status"></span>
             <span class="text-muted fs-6 fw-semibold ms-5 mt-5">@lang('Loading ...')</span>
         </div>
     </div>
@@ -83,7 +83,7 @@
 
                     <!-- Theme Mode -->
                     <div>
-                        <a class="btn btn-icon btn-light btn-icon-muted btn-active-light btn-active-color-success w-35px h-35px w-md-40px h-md-40px" data-kt-menu-trigger="click" data-kt-menu-attach="parent" data-kt-menu-placement="bottom">
+                        <a class="btn btn-icon btn-light btn-icon-muted btn-active-light btn-active-color-danger w-35px h-35px w-md-40px h-md-40px" data-kt-menu-trigger="click" data-kt-menu-attach="parent" data-kt-menu-placement="bottom">
                             <i class="theme-light-show bi bi-sun fs-3"></i>
                             <i class="theme-dark-show bi bi-moon-stars fs-3"></i>
                         </a>
@@ -117,7 +117,7 @@
 
                     <!-- LANGUAGE -->
                     <div>
-                        <a class="btn btn-icon btn-light btn-active-light btn-active-color-success w-35px h-35px w-md-40px h-md-40px" data-kt-menu-trigger="click" data-kt-menu-attach="parent" data-kt-menu-placement="bottom">
+                        <a class="btn btn-icon btn-light btn-active-light btn-active-color-danger w-35px h-35px w-md-40px h-md-40px" data-kt-menu-trigger="click" data-kt-menu-attach="parent" data-kt-menu-placement="bottom">
                             <img class="w-20px h-20px rounded-1" src="{{ asset('assets/media/flags/' . LaravelLocalization::getCurrentLocale() . '.png') }}" alt="{{ LaravelLocalization::getCurrentLocaleNative() }}" />
                         </a>
                         <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-title-gray-700 menu-icon-muted menu-active-bg menu-state-color fw-semibold py-4 fs-base w-175px" data-kt-menu="true">

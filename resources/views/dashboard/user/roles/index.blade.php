@@ -12,7 +12,7 @@
 
 @section('actions')
     @include('dashboard.layouts.packages.livewire.filter')
-    <a href="{{ route('dashboard.roles.create') }}" class="btn btn-success d-flex align-items-center gap-2 w-100 w-md-auto justify-content-center order-1 order-md-3">
+    <a href="{{ route('dashboard.roles.create') }}" class="btn btn-danger d-flex align-items-center gap-2 w-100 w-md-auto justify-content-center order-1 order-md-3">
         <i class="bi bi-plus-circle"></i>
         @lang('Create') @lang('Roles')
     </a>

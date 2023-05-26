@@ -41,7 +41,7 @@
             </div>
         </div>
         <div class="card-footer d-flex justify-content-end">
-            <button type="submit" class="btn btn-success w-100 w-lg-25">
+            <button type="submit" class="btn btn-danger w-100 w-lg-25">
                 <span class="indicator-label">@lang('Update')</span>
                 <span class="indicator-progress">@lang('Please Wait ...') <span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
             </button>
@@ -53,6 +53,6 @@
     <script>
         // Menu
         $('#menuChangePassword').addClass('active');
-        $('#profileChangePassword').addClass('active border-success');
+        $('#profileChangePassword').addClass('active border-danger');
     </script>
 @endpush

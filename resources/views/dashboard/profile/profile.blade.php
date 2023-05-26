@@ -70,6 +70,6 @@
     <script>
         // Menu
         $('#menuProfilePage').addClass('active');
-        $('#profileProfilePage').addClass('active border-success');
+        $('#profileProfilePage').addClass('active border-danger');
     </script>
 @endpush

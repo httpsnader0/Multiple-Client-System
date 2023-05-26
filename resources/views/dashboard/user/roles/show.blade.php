@@ -13,7 +13,7 @@
 @endsection
 
 @section('actions')
-    <a href="{{ route('dashboard.roles.index') }}" class="btn btn-success">
+    <a href="{{ route('dashboard.roles.index') }}" class="btn btn-danger">
         <i class="bi bi-arrow-{{ LaravelLocalization::getCurrentLocale()== 'ar' ? 'right' : 'left' }}"></i>
         @lang('Roles')
     </a>

@@ -39,7 +39,7 @@ class CustomerServiceController extends Controller
     {
         $data['type'] = UserTypeEnum::CUSTOMER_SERVICE();
         $data['name'] = $request->name;
-        $data['phone'] = $request->phone;
+        $data['email'] = $request->email;
         $data['password'] = Hash::make($request->password);
         $customerService = User::create($data);
 
@@ -63,7 +63,7 @@ class CustomerServiceController extends Controller
     public function update(User $customerService, CustomerServiceRequest $request)
     {
         $data['name'] = $request->name;
-        $data['phone'] = $request->phone;
+        $data['email'] = $request->email;
         if ($request->password) {
             $data['password'] = Hash::make($request->password);
         }

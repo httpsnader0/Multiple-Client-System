@@ -25,21 +25,23 @@ class UserSeeder extends Seeder
             'email' => 'customer.service@gmail.com',
             'password' => Hash::make(123),
         ]);
-        $customerService->assignRole(2);
+        $customerService->assignRole(3);
 
-        User::create([
+        $user = User::create([
             'type' => UserTypeEnum::USER(),
             'name' => 'User 01',
             'email' => 'user01@gmail.com',
             'password' => Hash::make(123),
         ]);
+        $user->assignRole(2);
 
-        User::create([
+        $user = User::create([
             'type' => UserTypeEnum::USER(),
             'name' => 'User 02',
             'email' => 'user02@gmail.com',
             'password' => Hash::make(123),
         ]);
+        $user->assignRole(2);
 
         User::create([
             'type' => UserTypeEnum::CLIENT(),

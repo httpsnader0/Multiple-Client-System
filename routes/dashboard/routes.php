@@ -18,6 +18,8 @@ Route::group([
 
             require __DIR__ . '/profile.php';
 
+            require __DIR__ . '/product.php';
+
             require __DIR__ . '/user.php';
 
             require __DIR__ . '/setting.php';

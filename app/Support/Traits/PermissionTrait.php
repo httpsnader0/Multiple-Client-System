@@ -6,6 +6,9 @@ trait PermissionTrait
     public function permissions()
     {
         $permissionGroups = [
+            'Products' => [
+                'Product',
+            ],
             'Users' => [
                 'Role',
                 'Administrator',

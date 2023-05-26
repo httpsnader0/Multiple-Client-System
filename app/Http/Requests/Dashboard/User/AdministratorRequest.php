@@ -18,7 +18,7 @@ class AdministratorRequest extends FormRequest
         return [
             'profile' => ['nullable', 'mimes:jpeg,jpg,png,gif,webp,svg', 'max:20000'],
             'name' => ['required'],
-            'phone' => ['required', Rule::unique('users')->ignore($this->isMethod('POST') ? null : $this->administrator->id)],
+            'email' => ['required', Rule::unique('users', 'email')->ignore($this->isMethod('POST') ? null : $this->administrator->id)],
             'password' => [$this->isMethod('POST') ? 'required' : 'nullable', 'confirmed', Password::min(8)],
         ];
     }
@@ -28,7 +28,7 @@ class AdministratorRequest extends FormRequest
         return [
             'profile' => __('Profile Image'),
             'name' => __('Name'),
-            'phone' => __('Phone'),
+            'email' => __('Email Address'),
             'password' => __('Password'),
         ];
     }

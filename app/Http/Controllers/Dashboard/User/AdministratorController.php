@@ -34,7 +34,7 @@ class AdministratorController extends Controller
     {
         $data['type'] = UserTypeEnum::ADMINISTRATOR();
         $data['name'] = $request->name;
-        $data['phone'] = $request->phone;
+        $data['email'] = $request->email;
         $data['password'] = Hash::make($request->password);
         $administrator = User::create($data);
 
@@ -57,7 +57,7 @@ class AdministratorController extends Controller
     public function update(User $administrator, AdministratorRequest $request)
     {
         $data['name'] = $request->name;
-        $data['phone'] = $request->phone;
+        $data['email'] = $request->email;
         if ($request->password) {
             $data['password'] = Hash::make($request->password);
         }

@@ -13,7 +13,7 @@
 @endsection
 
 @section('actions')
-    <a href="{{ route('dashboard.administrators.index') }}" class="btn btn-success">
+    <a href="{{ route('dashboard.administrators.index') }}" class="btn btn-danger">
         <i class="bi bi-arrow-{{ LaravelLocalization::getCurrentLocale()== 'ar' ? 'right' : 'left' }}"></i>
         @lang('Administrators')
     </a>
@@ -30,7 +30,7 @@
                         <a data-fslightbox="profile" href="{{ asset('assets/default.png') }}" class="symbol symbol-150px my-3 bg-white border border-5 border-white rounded-4 shadow-sm overflow-hidden">
                             <img src="{{ asset('assets/default.png') }}">
                         </a>
-                        <label class="btn btn-light btn-active-color-success btn-icon w-100 position-relative translate-y-0 @error('profile') border border-danger @enderror" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-dismiss="click" title="@lang('Select Image')">
+                        <label class="btn btn-light btn-active-color-danger btn-icon w-100 position-relative translate-y-0 @error('profile') border border-danger @enderror" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-dismiss="click" title="@lang('Select Image')">
                             <i class="bi bi-upload"></i>
                             <input name="profile" type="file" accept=".png, .jpg, .jpeg, .gif, .webp" class="d-none" />
                         </label>
@@ -47,9 +47,9 @@
                     @enderror
                 </div>
                 <div class="col-md-6 mb-7">
-                    <label class="required">@lang('Phone')</label>
-                    <input name="phone" value="{{ old('phone') }}" type="text" class="form-control mt-3 @error('phone') is-invalid @enderror">
-                    @error('phone')
+                    <label class="required">@lang('Email Address')</label>
+                    <input name="email" value="{{ old('email') }}" type="text" class="form-control mt-3 @error('email') is-invalid @enderror">
+                    @error('email')
                         <span class="invalid-feedback d-flex text-capitalize">{{ $message }}</span>
                     @enderror
                 </div>
@@ -92,7 +92,7 @@
             </div>
         </div>
         <div class="card-footer d-flex justify-content-end">
-            <button type="submit" class="btn btn-success w-100 w-lg-25">
+            <button type="submit" class="btn btn-danger w-100 w-lg-25">
                 <span class="indicator-label">@lang('Create')</span>
                 <span class="indicator-progress">@lang('Please Wait ...') <span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
             </button>

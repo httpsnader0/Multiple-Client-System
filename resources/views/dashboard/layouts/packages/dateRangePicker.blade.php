@@ -5,7 +5,7 @@
         opens: "center",
         drops: "auto",
         buttonClasses: "btn btn-sm",
-        applyButtonClasses: "btn-light-success",
+        applyButtonClasses: "btn-light-danger",
         ranges: {
             '@lang('Today')': [moment(), moment()],
             '@lang('Yesterday')': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],

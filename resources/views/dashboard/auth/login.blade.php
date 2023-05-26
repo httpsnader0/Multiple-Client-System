@@ -8,12 +8,12 @@
     <form action="{{ route('dashboard.login') }}" method="POST" class="row justify-content-center">
         @csrf
         <div class="col-md-12 text-center mb-10">
-            <h1 class="fw-bolder text-success mb-3 fs-3x">@lang('Login')</h1>
-            <div class="text-gray-500 fw-semibold fs-6">@lang('Enter Your Phone And Password')</div>
+            <h1 class="fw-bolder text-danger mb-3 fs-3x">@lang('Login')</h1>
+            <div class="text-gray-500 fw-semibold fs-6">@lang('Enter Your Email Address And Password')</div>
         </div>
         <div class="col-md-12 mb-7">
-            <input name="phone" placeholder="@lang('Phone')" type="text" class="form-control bg-transparent h-60px @error('phone') is-invalid @enderror" />
-            @error('phone')
+            <input name="email" placeholder="@lang('Email Address')" type="text" class="form-control bg-transparent h-60px @error('email') is-invalid @enderror" />
+            @error('email')
                 <span class="invalid-feedback d-flex text-capitalize">{{ $message }}</span>
             @enderror
         </div>
@@ -30,16 +30,22 @@
             @enderror
         </div>
         <div class="col-md-12 mb-7">
-            <div class="form-check form-check-custom form-check-solid form-check-success">
+            <div class="form-check form-check-custom form-check-solid form-check-danger">
                 <input name="remember" type="checkbox" class="form-check-input" id="remember" {{ old('remember') ? 'checked' : '' }} />
                 <label class="form-check-label" for="remember">@lang('Remember Me')</label>
             </div>
         </div>
         <div class="col-md-12 mb-7">
-            <button type="submit" class="btn btn-success w-100">
+            <button type="submit" class="btn btn-danger w-100">
                 <span class="indicator-label">@lang('Login')</span>
                 <span class="indicator-progress">@lang('Please Wait ...') <span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
             </button>
+        </div>
+        <div class="col-md-6 mb-7">
+            <a href="{{ route('dashboard.client-register.index') }}" class="btn btn-secondary w-100">@lang('Client Register')</a>
+        </div>
+        <div class="col-md-6 mb-7">
+            <a href="{{ route('dashboard.user-register.index') }}" class="btn btn-secondary w-100">@lang('User Register')</a>
         </div>
     </form>
 @endsection

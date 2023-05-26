@@ -6,6 +6,22 @@ trait MenuTrait
     public function menu()
     {
         return [
+            'Products' => [
+                [
+                    'permissions' => 'Index Product',
+                    'icon' => 'bi bi-list-nested',
+                    'title' => __('Products'),
+                    'route' => route('dashboard.products.index'),
+                    'active' => 'dashboard.products.*',
+                ],
+                [
+                    'permissions' => 'Report',
+                    'icon' => 'bi bi-list-nested',
+                    'title' => __('Reports'),
+                    'route' => route('dashboard.reports.index'),
+                    'active' => 'dashboard.reports.*',
+                ],
+            ],
             'Users' => [
                 [
                     'permissions' => 'Index Role',

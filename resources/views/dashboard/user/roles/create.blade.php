@@ -13,7 +13,7 @@
 @endsection
 
 @section('actions')
-    <a href="{{ route('dashboard.roles.index') }}" class="btn btn-success">
+    <a href="{{ route('dashboard.roles.index') }}" class="btn btn-danger">
         <i class="bi bi-arrow-{{ LaravelLocalization::getCurrentLocale() == 'ar' ? 'right' : 'left' }}"></i>
         @lang('Roles')
     </a>
@@ -114,7 +114,7 @@
             </div>
         </div>
         <div class="card-footer d-flex justify-content-end">
-            <button type="submit" class="btn btn-success w-100 w-lg-25">
+            <button type="submit" class="btn btn-danger w-100 w-lg-25">
                 <span class="indicator-label">@lang('Create')</span>
                 <span class="indicator-progress">@lang('Please Wait ...') <span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
             </button>

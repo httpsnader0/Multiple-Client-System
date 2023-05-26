@@ -1,5 +1,5 @@
 <div class="menu-item px-3">
-    <a onclick="Delete('{{ route($route . '.destroy', $id) }}')" class="btn btn-icon btn-active-color-success w-100 menu-link px-5 py-5 d-flex justify-content-start align-items-center gap-3 fs-7 text-nowrap">
+    <a onclick="Delete('{{ route($route . '.destroy', $id) }}')" class="btn btn-icon btn-active-color-danger w-100 menu-link px-5 py-5 d-flex justify-content-start align-items-center gap-3 fs-7 text-nowrap">
         <i class="bi bi-trash3"></i>
         @lang('Delete')
     </a>

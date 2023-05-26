@@ -38,7 +38,7 @@ class ClientTable extends Table
 
             Column::make(__('Name'), 'name')->searchable()->sortable(),
 
-            Column::make(__('Phone'), 'phone')->searchable()->sortable(),
+            Column::make(__('Email Address'), 'email')->searchable()->sortable(),
 
             Column::make(__('Created At'), 'created_at')->format(function ($value, $column, $row) {
                 return dateTableFormat($column->created_at);
